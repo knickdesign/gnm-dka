@@ -1,0 +1,77 @@
+content_home_hero_header:
+  label: Home Hero Header
+  category: AIS DKA Custom
+  template: templates/custom-layouts/layout_home_hero-header
+  regions:
+    topline:
+      label: Topline
+    title:
+      label: Titel
+    subtitle:
+      label: Untertitel
+    img:
+      label: Bild
+content_home_searchintro:
+  label: Home Sucheinstieg
+  category: AIS DKA Custom
+  template: templates/custom-layouts/layout_home_searchintro
+  regions:
+    title:
+      label: Titel
+    subtitle:
+      label: Untertitel
+content_home_content:
+  label: Home Inhalt
+  category: AIS DKA Custom
+  template: templates/custom-layouts/layout_home_content
+  regions:
+    title:
+      label: Titel
+    content:
+      label: Inhalt
+    img:
+      label: Bild
+content_home_extdb:
+  label: Home Externe Datenbanken
+  category: AIS DKA Custom
+  template: templates/custom-layouts/layout_home_extdb
+  regions:
+    img:
+      label: Bild
+    link:
+      label: Link
+content_home_extdbsss:
+  label: Home Externe Datenbanken Block
+  category: AIS DKA Custom
+  template: templates/custom-layouts/layout_home_extdbsss
+  regions:
+    title:
+      label: Titel
+    subtitle:
+      label: Untertitel
+    view:
+      label: Viewfield
+content_home_extlinks:
+  label: Home Externe Links
+  category: AIS DKA Custom
+  template: templates/custom-layouts/layout_home_extlinks
+  regions:
+    title:
+      label: Titel
+    subtitle:
+      label: Untertitel
+    links:
+      label: Links
+content_pagedefault:
+  label: Page Default
+  category: AIS DKA Custom
+  template: templates/custom-layouts/layout_pagedefault
+  regions:
+    title:
+      label: Titel
+    subtitle:
+      label: Introtext
+    content:
+      label: Inhalt
+    info:
+      label: Infos

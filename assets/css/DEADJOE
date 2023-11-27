@@ -1,0 +1,90 @@
+
+*** These modified files were found in JOE when it aborted on Fri Nov 10 14:43:56 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+gnm2018_aispilot
+pdf_export_css
+fce
+fce_'
+4.4.25
+
+*** File '(Unnamed)'
+getIndexesForEntity
+RedirectResponse
+entity
+Redirect
+Redir
+response
+strip_tags
+post?
+solr_archivalien
+solr
+.page--
+
+*** File '(Unnamed)'
+modules/contrib/search_api/src/Plugin/views/field/SearchApiFieldTrait.php
+modules/contrib/search_api/src/Plugin/views/field/SearchApiFieldTrait.php
+Sparql11Engine.php
+Sparql11Engine.php
+Sparql11Engine.php
+Sparql11Engine.php
+Sparql11Engine.php
+Sparql11Engine.php
+Sparql11Engine.php
+style.css
+style.css
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc
+
+*** These modified files were found in JOE when it aborted on Tue Nov 14 16:08:36 2023
+*** JOE was aborted because the terminal closed
+
+*** File '(Unnamed)'
+gnm2018_aispilot
+pdf_export_css
+fce
+fce_'
+4.4.25
+.views-field .layout__region--content:nth-child
+.layout__region
+.layout__region > div.field:nth
+
+*** File '(Unnamed)'
+response
+strip_tags
+post?
+solr_archivalien
+solr
+.page--archivalien-suche
+.views-field:nth-child
+.views-field
+.layout__region--content
+.layout__region:nth
+
+*** File '(Unnamed)'
+style.css
+ais_dka_custom.libraries.yml
+ais_dka_custom.layouts.yml
+ais_dka_custom.libraries.yml
+style.css
+style.css
+style.css
+style.css
+style.css
+style.css
+style.css
+style.css
+style.css
+style.css
+style.css
+
+*** File '* Startup Log *'
+Processing '/etc/joe/joerc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/joerc

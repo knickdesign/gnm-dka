@@ -1,0 +1,105 @@
+#page.site {
+    width: 100vw;
+}
+
+.site-main {
+    overflow-x: hidden;
+    &.no-overflow {
+        overflow: unset;
+    }
+}
+
+@media screen and (max-width: $breakpoint-sm-width) {
+    body {
+        overflow-x: hidden;
+    }
+}
+
+.theme-content-container {
+    max-width: $max-container-width-xl;
+    margin: 0 auto;
+    padding: 0 $spacing-m;
+    @media screen and (max-width: $breakpoint-l-width) {
+        padding: 0 $spacing-s;
+    }
+    @media screen and (max-width: $breakpoint-m-width) {
+        padding: 0 $spacing-xs;
+    }
+    @media screen and (max-width: $breakpoint-s-width) {
+        padding: 0 $spacing-mobile;
+    }
+}
+
+.top-bottom-container {
+    padding-top: 150px;
+    padding-bottom: $spacing-l;
+    @media screen and (max-width: $breakpoint-l-width) {
+        padding-top: $spacing-l;
+        padding-bottom: $spacing-l;
+    }
+    @media screen and (max-width: $breakpoint-m-width) {
+        padding-top: $spacing-m;
+        padding-bottom: $spacing-m;
+    }
+    @media screen and (max-width: $breakpoint-s-width) {
+        padding-top: $spacing-s;
+        padding-bottom: $spacing-s;
+    }
+}
+
+.top-container {
+    padding-top: 150px;
+    @media screen and (max-width: $breakpoint-l-width) {
+        padding-top: $spacing-l;
+    }
+    @media screen and (max-width: $breakpoint-m-width) {
+        padding-top: $spacing-m;
+    }
+    @media screen and (max-width: $breakpoint-s-width) {
+        padding-top: $spacing-s;
+    }
+}
+
+.bottom-container {
+    padding-bottom: $spacing-l;
+    @media screen and (max-width: $breakpoint-l-width) {
+        padding-bottom: $spacing-l;
+    }
+    @media screen and (max-width: $breakpoint-m-width) {
+        padding-bottom: $spacing-m;
+    }
+    @media screen and (max-width: $breakpoint-s-width) {
+        padding-bottom: $spacing-s;
+    }
+}
+
+nav.breadcrumb::after {
+    display: none;
+}
+
+#block-ais-dka-custom-content{
+    margin-bottom: 0;
+    &>.block__content>article>.node__content,  &>.block__content>article>.node__content>.layout{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .field--name-field-home-extlinks>article>.node__content{
+        padding-bottom: 0;
+    }
+}
+
+#content{
+    margin-bottom: 0;
+}
+
+.page--default div.page--default__content{
+    margin-bottom: 0;
+}
+
+.view-archivalien{
+    margin-bottom: 10rem!important;
+}
+
+.path-user #main-wrapper, .path-wisski #main-wrapper, .path-search #main-wrapper{
+    margin-bottom: 10rem!important;
+}

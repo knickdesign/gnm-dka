@@ -1,0 +1,205 @@
+@mixin transition-all($duration: 0.2s) {
+    -webkit-transition-duration: $duration;
+    -moz-transition-duration: $duration;
+    -o-transition-duration: $duration;
+    transition-duration: $duration;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+}
+
+@mixin transition($property, $duration: 0.2s) {
+    -webkit-transition-duration: $duration;
+    -moz-transition-duration: $duration;
+    -o-transition-duration: $duration;
+    transition-duration: $duration;
+    -webkit-transition-property: $property;
+    -moz-transition-property: $property;
+    -o-transition-property: $property;
+    transition-property: $property;
+}
+
+@mixin text-regular() {
+    font-size: $text-font-size;
+    line-height: $text-line-height;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$text-font-size} + #{strip-unit($text-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$text-line-height} + #{strip-unit($text-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $text-font-size-max;
+        line-height: $text-line-height-max;
+    }
+}
+
+@mixin text-bigger() {
+    font-size: $bigger-text-font-size;
+    line-height: $bigger-text-line-height;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$bigger-text-font-size} + #{strip-unit($bigger-text-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$bigger-text-line-height} + #{strip-unit($bigger-text-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $bigger-text-font-size-max;
+        line-height: $bigger-text-line-height-max;
+    }
+}
+
+@mixin text-smaller() {
+    font-size: $smaller-text-font-size;
+    line-height: $smaller-text-line-height;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$smaller-text-font-size} + #{strip-unit($smaller-text-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$smaller-text-line-height} + #{strip-unit($smaller-text-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $smaller-text-font-size-max;
+        line-height: $smaller-text-line-height-max;
+    }
+}
+
+@mixin text-meta() {
+    font-size: $meta-text-font-size;
+    line-height: $meta-text-line-height;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$meta-text-font-size} + #{strip-unit($meta-text-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$meta-text-line-height} + #{strip-unit($meta-text-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $meta-text-font-size-max;
+        line-height: $meta-text-line-height-max;
+    }
+}
+
+@mixin text-title() {
+    font-size: $title-font-size;
+    line-height: $title-line-height;
+    display: block;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$title-font-size} + #{strip-unit($title-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$title-line-height} + #{strip-unit($title-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $title-font-size-max;
+        line-height: $title-line-height-max;
+    }
+}
+
+@mixin text-title-subline() {
+    font-size: $title-subline-font-size;
+    line-height: $title-subline-line-height;
+    display: block;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$title-subline-font-size} + #{strip-unit($title-subline-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$title-subline-line-height} + #{strip-unit($title-subline-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $title-subline-font-size-max;
+        line-height: $title-subline-line-height-max;
+    }
+}
+
+@mixin text-h1-2() {
+    font-size: $h1-2-font-size;
+    line-height: $h1-2-line-height;
+    margin-bottom: 6vw;
+    display: block;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$h1-2-font-size} + #{strip-unit($h1-2-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$h1-2-line-height} + #{strip-unit($h1-2-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $h1-2-font-size-max;
+        line-height: $h1-2-line-height-max;
+        margin-bottom: 100px;
+    }
+}
+
+@mixin text-h3() {
+    font-size: $h3-font-size;
+    line-height: $h3-line-height;
+    display: block;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$h3-font-size} + #{strip-unit($h3-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$h3-line-height} + #{strip-unit($h3-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $h3-font-size-max;
+        line-height: $h3-line-height-max;
+    }
+}
+
+@mixin text-h3-subline() {
+    font-size: $h3-subline-font-size;
+    line-height: $h3-subline-line-height;
+    display: block;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$h3-subline-font-size} + #{strip-unit($h3-subline-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$h3-subline-line-height} + #{strip-unit($h3-subline-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $h3-subline-font-size-max;
+        line-height: $h3-subline-line-height-max;
+    }
+}
+
+@mixin text-h4() {
+    font-size: $h4-font-size;
+    line-height: $h4-line-height;
+    display: block;
+    @media screen and (min-width: $breakpoint-s-width) {
+        font-size: calc(#{$h4-font-size} + #{strip-unit($h4-font-size-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+        line-height: calc(#{$h4-line-height} + #{strip-unit($h4-line-height-diff)} * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        font-size: $h4-font-size-max;
+        line-height: $h4-line-height-max;
+    }
+}
+
+@mixin border-radius() {
+    border-radius: 26px;
+    @media screen and (min-width: $breakpoint-s-width) {
+        border-radius: calc(26px + 40 * ((100vw - #{$breakpoint-s-width}) / #{strip-unit($breakpoints-max-diff)}));
+    }
+    @media screen and (min-width: $breakpoint-xl-width) {
+        border-radius: 66px;
+    }
+}
+
+@mixin font-text-regular() {
+    font-family: "Corporate S regular", Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin font-text-bold() {
+    font-family: "Corporate S bold", Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+@mixin text-overflow-ellipsis() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@mixin styled-scrollbars() {
+    /* width */
+    &::-webkit-scrollbar {
+        width: 7px;
+    }
+    /* Track */
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background-color: $color-blue-dark;
+    }
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+        background-color: $color-blue-light;
+    }
+}

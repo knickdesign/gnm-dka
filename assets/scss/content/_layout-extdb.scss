@@ -1,0 +1,82 @@
+.extdbsss{
+    margin: 150px 0;
+    .extdbsss__content{
+        margin-top: $spacing-l;
+        .extdbsss__view{
+            .view-content{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: $spacing-m;
+                .extdb{
+                    position: relative;
+                    .extdb__img{
+                        width: 100%;
+                        aspect-ratio: 4/3;
+                        position: relative;
+                        img{
+                            width: 100%;
+                            aspect-ratio: 4/3;
+                            object-fit: cover;
+                        }
+                    }
+                    .extdb__img-gradient{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+background: linear-gradient(14deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.18) 100%);
+                    }
+                    .extdb__txt{
+                        position: absolute;
+                        left: 28px;
+                        bottom: 28px;
+                        a{
+                            color: white!important;
+                            @include font-text-bold;
+                            @include transition-all;
+                            &::after{
+                                content: "❯";
+                                margin-left: 10px;
+                            }
+                            &:hover{
+                                &::after{
+                                    margin-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-ml-width){
+    .extdbsss{
+        .extdbsss__content{
+            .extdbsss__view{
+                .view-content{
+                    gap: $spacing-xs;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint-m-width){
+    .extdbsss{
+        .extdbsss__content{
+            margin-top: $spacing-m;
+            .extdbsss__view{
+                .view-content{
+                    width: 100vw;
+                    grid-template-columns: repeat(3, 70vw);
+                    overflow-x: scroll;
+                    padding-right: $spacing-m;
+                    gap: $spacing-xs;
+                }
+            }
+        }
+    }
+}

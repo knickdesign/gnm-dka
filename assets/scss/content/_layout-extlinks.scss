@@ -1,0 +1,32 @@
+.extlinks{
+    padding: $spacing-l 0;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: calc((100vw - 100%) / -2);
+        width: 100vw;
+        height: 100%;
+        background-color: $color-sand;
+        z-index: -1;
+    }
+    .extlinks__content{
+        margin-top: $spacing-m;
+        a{
+            margin-bottom: $spacing-s;
+            display: block;
+            @include font-text-bold;
+            &::after{
+                content: "❯";
+                margin-left: 10px;
+            }
+            &:hover{
+                color: $color-red!important;
+                &::after{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+} 

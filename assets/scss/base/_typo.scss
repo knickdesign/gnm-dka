@@ -1,0 +1,203 @@
+div,
+p,
+span,
+em,
+i,
+li,
+td,
+address,
+a {
+    @include font-text-regular;
+    @include text-regular;
+    color: $color-black;
+}
+
+em {
+    @include font-text-bold;
+}
+
+strong,
+b,
+th,
+.strong,
+.bold,
+button,
+.btn,
+label,
+input,
+textarea,
+select {
+    @include font-text-bold;
+    @include text-regular;
+    color: $color-black;
+}
+
+.title, .title * {
+    @include font-text-bold;
+    @include text-title;
+    color: $color-black;
+}
+
+.title-subline, .title-subline * {
+    @include font-text-regular;
+    @include text-title-subline;
+    color: $color-black;
+}
+
+h3+.h3-subline{
+    margin-top: 0;
+}
+
+h1,
+.h1,
+h1 *,
+.h1 * {
+    @include font-text-bold;
+    @include text-h1-2;
+    color: $color-black;
+}
+
+h2,
+.h2,
+h2 *,
+.h2 * {
+    @include font-text-bold;
+    @include text-h1-2;
+    color: $color-black;
+}
+
+h3,
+.h3,
+h3 *,
+.h3 * {
+    @include font-text-bold;
+    @include text-h3;
+    color: $color-black;
+    margin-bottom: 0;
+}
+
+.h3-subline,
+.h3-subline * {
+    @include font-text-regular;
+    @include text-h3-subline;
+    color: $color-black;
+    margin-bottom: $spacing-s;
+}
+
+h4,
+.h4,
+h4 *,
+.h4 * {
+    @include font-text-bold;
+    @include text-h3;
+    color: $color-black;
+}
+
+h5,
+.h5,
+h6,
+.h6,
+h5 *,
+.h5 *,
+h6 *,
+.h6 * {
+    @include font-text-bold;
+    @include text-regular;
+    color: $color-black;
+}
+
+p, span{
+    margin: 0;
+    max-width: $content-text-max-width;
+}
+
+.intro-text,
+.intro-text * {
+    @include text-bigger;
+    @include font-text-regular;
+}
+
+.big-text,
+.big-text * {
+    @include text-bigger;
+    @include font-text-regular;
+}
+
+.gedicht-text {
+    @include text-bigger;
+    @include font-text-regular;
+    line-height: 1.4;
+}
+
+.read-more-trigger {
+    @include text-regular;
+    @include font-text-regular;
+    margin-bottom: $spacing-mobile;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: $spacing-s;
+    margin-bottom: 0;
+}
+
+ol,
+ul {
+    padding-left: 1em;
+    margin: 0;
+}
+
+.text-bigger {
+    @include text-bigger;
+}
+
+.font-regular {
+    @include font-text-regular;
+}
+
+.font-text-bold {
+    @include font-text-bold;
+}
+
+a {
+    @include transition-all;
+    color: $color-red;
+    &:hover{
+        color: $color-red;
+    }
+}
+
+a,
+a:active,
+a:focus,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+.text-content a:not(.button), .cke_editable a:not(.button){
+    transition: unset;
+text-decoration: none!important;
+box-shadow: none;
+word-wrap: break-word;
+color: $color-red;
+}
+
+.text-content a:not(.button):hover, .cke_editable a:not(.button):hover{
+    text-decoration: underline!important;
+    transition: unset;
+    box-shadow: unset;
+color: $color-red;
+box-shadow: none;
+text-decoration-color: $color-red;
+}
+
+.text-content a:not(.button):hover, .cke_editable a:not(.button):hover{
+    text-decoration: underline!important;
+color: $color-red;
+box-shadow: none;
+text-decoration-color: $color-red;
+}
+
+.page--archivalie-single .page-title {
+    @include font-text-bold;
+    @include text-h3;
+}

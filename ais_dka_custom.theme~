@@ -1,0 +1,4 @@
+<?php
+function ais_dka_custom_preprocess_layout_card_gedicht(&$variables) {
+  $variables['entity_id'] = $variables['content']['#wisski_individual']->id();
+}
