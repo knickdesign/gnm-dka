@@ -76,6 +76,7 @@
                         margin-bottom: 10px;
                         * {
                             @include text-meta;
+                            @include font-text-regular;
                             font-style: italic;
                             margin-bottom: 10px;
                             line-height: 1;

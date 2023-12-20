@@ -1727,6 +1727,9 @@ article header {
 .page--archivalien-suche .content .views-row .views-field .layout__region--content .field--label-inline:nth-child(2) * {
   font-size: 14px;
   line-height: 20px;
+  font-family: "Corporate S regular", Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
   font-style: italic;
   margin-bottom: 10px;
   line-height: 1;
