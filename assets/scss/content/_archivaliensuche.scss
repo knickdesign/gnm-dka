@@ -108,6 +108,7 @@
         background-color: $color-grey;
         padding-top: 250px;
         padding-left: 45px;
+        padding-bottom: 150px;
         @media screen and (max-width: 1700px) {
             width: calc(($spacing-s / 2) + ($max-container-width-xl * 0.3));
             padding-right: calc((104vw - $max-container-width-xl) / 2);
