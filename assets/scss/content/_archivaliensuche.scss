@@ -84,11 +84,18 @@
                     }
                     // date
                     &:nth-child(3) {
+                        margin-bottom: 5px;
+                        .field__item{
+                            display: inline-block;
+                            &:not(:last-child)::after{
+                                content: ", ";
+                                margin-right: 5px;
+                            }
+                        }
                         * {
                             @include text-smaller;
                             line-height: 1;
                         }
-                        margin-bottom: 5px;
                     }
                     // signature
                     &:nth-child(4) *, &:nth-child(4) .field__label, .field__item {
