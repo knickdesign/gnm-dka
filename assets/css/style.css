@@ -1551,7 +1551,7 @@ article header {
   gap: 30px;
 }
 
-.path-wisski-views .view-filters form {
+.view-filters form {
   display: flex;
   max-width: 100%;
   flex-wrap: wrap;
