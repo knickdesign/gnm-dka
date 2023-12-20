@@ -3,6 +3,14 @@ function toggleMobileMenu() {
     mobileMenu.classList.toggle('mobile-nav--active');
 }
 
+const trigger = document.querySelector('#header .header__container__inner--mobile-nav-toggle');
+// function for onkeypress - barrier free design
+trigger.addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+       toggleMobileMenu();
+    }
+});
+
 window.addEventListener('load', function() {
     var triggerButton = document.getElementById('search-string-from-home');
     if(triggerButton){
