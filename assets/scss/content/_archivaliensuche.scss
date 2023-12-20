@@ -55,8 +55,8 @@
             border-left: 4px solid $color-red;
             .views-field{
 
-                .field__item{
-
+                .field__item, .field__items{
+                    margin-bottom: 0;
                     line-height: 1;
                     // title
                     &:nth-child(1) *{
