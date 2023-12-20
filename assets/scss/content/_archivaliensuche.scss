@@ -115,6 +115,9 @@
         *{
             color: $color-white!important;
         }
+        .contextual-region .contextual .contextual-links a{
+            color: black!important;
+        }
         .facet-item{
             *{
                 @include text-smaller;

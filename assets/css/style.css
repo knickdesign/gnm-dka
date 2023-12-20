@@ -1788,6 +1788,9 @@ article header {
 .page--archivalien-suche .sidebar--content * {
   color: #FFFFFF !important;
 }
+.page--archivalien-suche .sidebar--content .contextual-region .contextual .contextual-links a {
+  color: black !important;
+}
 .page--archivalien-suche .sidebar--content .facet-item * {
   font-size: 16px;
   line-height: 22px;
