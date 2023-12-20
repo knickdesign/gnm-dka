@@ -1,21 +1,4 @@
 @charset "UTF-8";
-
-.page--archivalien-suche .content .views-row .views-field div.field--name-ffcdde9c5c21869e5c715c769f6b879e div.field__item {
-  display: inline;
-}
-
-.page--archivalien-suche .content .views-row .views-field div.field--name-ffcdde9c5c21869e5c715c769f6b879e div.field__item:not(:last-child):after {
-  content: ",";
-}
-
-.page--archivalien-suche .content .views-row .views-field div.field--name-bf79d1e06359c776531f2df46515f238 div.field__item {
-  display: inline;
-}
-
-.page--archivalien-suche .content .views-row .views-field div.field--name-bf79d1e06359c776531f2df46515f238 div.field__item:not(:last-child):after {
-  content: ",";
-}
-
 .flex {
   display: flex;
 }
@@ -387,8 +370,8 @@ a {
   td,
   address,
   a {
-    font-size: calc(16px + 8 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 11 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 8 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 11 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -442,8 +425,8 @@ select {
   input,
   textarea,
   select {
-    font-size: calc(16px + 8 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 11 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 8 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 11 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -474,8 +457,8 @@ select {
 }
 @media screen and (min-width: 375px) {
   .title, .title * {
-    font-size: calc(55px + 45 * (100vw - 375px) / 1545);
-    line-height: calc(50px + 43 * (100vw - 375px) / 1545);
+    font-size: calc(55px + 45 * ((100vw - 375px) / 1545));
+    line-height: calc(50px + 43 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -496,8 +479,8 @@ select {
 }
 @media screen and (min-width: 375px) {
   .title-subline, .title-subline * {
-    font-size: calc(28px + 18 * (100vw - 375px) / 1545);
-    line-height: calc(35px + 27 * (100vw - 375px) / 1545);
+    font-size: calc(28px + 18 * ((100vw - 375px) / 1545));
+    line-height: calc(35px + 27 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -529,8 +512,8 @@ h1 *,
   .h1,
   h1 *,
   .h1 * {
-    font-size: calc(32px + 10 * (100vw - 375px) / 1545);
-    line-height: calc(34px + 12 * (100vw - 375px) / 1545);
+    font-size: calc(32px + 10 * ((100vw - 375px) / 1545));
+    line-height: calc(34px + 12 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -562,8 +545,8 @@ h2 *,
   .h2,
   h2 *,
   .h2 * {
-    font-size: calc(32px + 10 * (100vw - 375px) / 1545);
-    line-height: calc(34px + 12 * (100vw - 375px) / 1545);
+    font-size: calc(32px + 10 * ((100vw - 375px) / 1545));
+    line-height: calc(34px + 12 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -595,8 +578,8 @@ h3 *,
   .h3,
   h3 *,
   .h3 * {
-    font-size: calc(20px + 12 * (100vw - 375px) / 1545);
-    line-height: calc(24px + 9 * (100vw - 375px) / 1545);
+    font-size: calc(20px + 12 * ((100vw - 375px) / 1545));
+    line-height: calc(24px + 9 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -623,8 +606,8 @@ h3 *,
 @media screen and (min-width: 375px) {
   .h3-subline,
   .h3-subline * {
-    font-size: calc(20px + 12 * (100vw - 375px) / 1545);
-    line-height: calc(24px + 9 * (100vw - 375px) / 1545);
+    font-size: calc(20px + 12 * ((100vw - 375px) / 1545));
+    line-height: calc(24px + 9 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -652,8 +635,8 @@ h4 *,
   .h4,
   h4 *,
   .h4 * {
-    font-size: calc(20px + 12 * (100vw - 375px) / 1545);
-    line-height: calc(24px + 9 * (100vw - 375px) / 1545);
+    font-size: calc(20px + 12 * ((100vw - 375px) / 1545));
+    line-height: calc(24px + 9 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -690,8 +673,8 @@ h6 *,
   .h5 *,
   h6 *,
   .h6 * {
-    font-size: calc(16px + 8 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 11 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 8 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 11 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -724,8 +707,8 @@ p, span {
 @media screen and (min-width: 375px) {
   .intro-text,
   .intro-text * {
-    font-size: calc(20px + 14 * (100vw - 375px) / 1545);
-    line-height: calc(26px + 18 * (100vw - 375px) / 1545);
+    font-size: calc(20px + 14 * ((100vw - 375px) / 1545));
+    line-height: calc(26px + 18 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -747,8 +730,8 @@ p, span {
 @media screen and (min-width: 375px) {
   .big-text,
   .big-text * {
-    font-size: calc(20px + 14 * (100vw - 375px) / 1545);
-    line-height: calc(26px + 18 * (100vw - 375px) / 1545);
+    font-size: calc(20px + 14 * ((100vw - 375px) / 1545));
+    line-height: calc(26px + 18 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -769,8 +752,8 @@ p, span {
 }
 @media screen and (min-width: 375px) {
   .gedicht-text {
-    font-size: calc(20px + 14 * (100vw - 375px) / 1545);
-    line-height: calc(26px + 18 * (100vw - 375px) / 1545);
+    font-size: calc(20px + 14 * ((100vw - 375px) / 1545));
+    line-height: calc(26px + 18 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -794,8 +777,8 @@ p, span {
 }
 @media screen and (min-width: 375px) {
   .read-more-trigger {
-    font-size: calc(16px + 8 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 11 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 8 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 11 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -817,8 +800,8 @@ ul {
 }
 @media screen and (min-width: 375px) {
   .text-bigger {
-    font-size: calc(20px + 14 * (100vw - 375px) / 1545);
-    line-height: calc(26px + 18 * (100vw - 375px) / 1545);
+    font-size: calc(20px + 14 * ((100vw - 375px) / 1545));
+    line-height: calc(26px + 18 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -885,6 +868,27 @@ a:hover {
   color: #e3001b;
   box-shadow: none;
   text-decoration-color: #e3001b;
+}
+
+.page--archivalie-single .page-title {
+  font-family: "Corporate S bold", Arial, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  display: block;
+}
+@media screen and (min-width: 375px) {
+  .page--archivalie-single .page-title {
+    font-size: calc(20px + 12 * ((100vw - 375px) / 1545));
+    line-height: calc(24px + 9 * ((100vw - 375px) / 1545));
+  }
+}
+@media screen and (min-width: 1920px) {
+  .page--archivalie-single .page-title {
+    font-size: 32px;
+    line-height: 33px;
+  }
 }
 
 *,
@@ -1294,6 +1298,7 @@ article header {
   .hero-header .hero-header__container .hero-header__content {
     height: auto;
     padding-bottom: 30px;
+    width: 100%;
   }
   .hero-header .hero-header__container .hero-header__content h1 {
     margin-top: 100px;
@@ -1638,8 +1643,8 @@ article header {
 }
 @media screen and (min-width: 375px) {
   .page--archivalien-suche .content h1.page-title {
-    font-size: calc(32px + 10 * (100vw - 375px) / 1545);
-    line-height: calc(34px + 12 * (100vw - 375px) / 1545);
+    font-size: calc(32px + 10 * ((100vw - 375px) / 1545));
+    line-height: calc(34px + 12 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1656,8 +1661,8 @@ article header {
 }
 @media screen and (min-width: 375px) {
   .page--archivalien-suche .content .view-header {
-    font-size: calc(16px + 4 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 2 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 4 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 2 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1672,13 +1677,10 @@ article header {
   margin-bottom: 30px;
   border-left: 4px solid #e3001b;
 }
-.page--archivalien-suche .content .views-row .views-field-cards-view-admin-rendered-item div.layout {
-  margin-bottom: 0px;
-}
-.page--archivalien-suche .content .views-row .views-field .layout__region > div.field {
+.page--archivalien-suche .content .views-row .views-field .layout__region {
   line-height: 1;
 }
-.page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(1) * {
+.page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(1) * {
   font-family: "Corporate S bold", Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -1689,21 +1691,21 @@ article header {
   margin-bottom: 0;
 }
 @media screen and (min-width: 375px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(1) * {
-    font-size: calc(16px + 6 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 4 * (100vw - 375px) / 1545);
+  .page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(1) * {
+    font-size: calc(16px + 6 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 4 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(1) * {
+  .page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(1) * {
     font-size: 22px;
     line-height: 26px;
   }
 }
-.page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(2) {
+.page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(2) {
   margin-bottom: 10px;
 }
-.page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(2) * {
+.page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(2) * {
   font-size: 14px;
   line-height: 20px;
   font-style: italic;
@@ -1711,50 +1713,50 @@ article header {
   line-height: 1;
 }
 @media screen and (min-width: 375px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(2) * {
-    font-size: calc(14px + 2 * (100vw - 375px) / 1545);
-    line-height: calc(20px + 4 * (100vw - 375px) / 1545);
+  .page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(2) * {
+    font-size: calc(14px + 2 * ((100vw - 375px) / 1545));
+    line-height: calc(20px + 4 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(2) * {
+  .page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(2) * {
     font-size: 16px;
     line-height: 24px;
   }
 }
-.page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(3) {
+.page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(3) {
   margin-bottom: 5px;
 }
-.page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(3) * {
+.page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(3) * {
   font-size: 16px;
   line-height: 22px;
   line-height: 1;
 }
 @media screen and (min-width: 375px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(3) * {
-    font-size: calc(16px + 4 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 2 * (100vw - 375px) / 1545);
+  .page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(3) * {
+    font-size: calc(16px + 4 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 2 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(3) * {
+  .page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(3) * {
     font-size: 20px;
     line-height: 24px;
   }
 }
-.page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(5) * {
+.page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(5) * {
   font-size: 16px;
   line-height: 22px;
   line-height: 1;
 }
 @media screen and (min-width: 375px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(5) * {
-    font-size: calc(16px + 4 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 2 * (100vw - 375px) / 1545);
+  .page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(5) * {
+    font-size: calc(16px + 4 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 2 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region > div.field:nth-child(5) * {
+  .page--archivalien-suche .content .views-row .views-field .layout__region:nth-child(5) * {
     font-size: 20px;
     line-height: 24px;
   }
@@ -1792,8 +1794,8 @@ article header {
 }
 @media screen and (min-width: 375px) {
   .page--archivalien-suche .sidebar--content .facet-item * {
-    font-size: calc(16px + 4 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 2 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 4 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 2 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1809,8 +1811,8 @@ article header {
 }
 @media screen and (min-width: 375px) {
   .page--archivalien-suche .sidebar--content .facets-widget-searchbox {
-    font-size: calc(16px + 4 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 2 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 4 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 2 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1835,8 +1837,8 @@ article header {
 }
 @media screen and (min-width: 375px) {
   .page--archivalien-suche .sidebar--content .facets-soft-limit-link {
-    font-size: calc(16px + 4 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 2 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 4 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 2 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1857,8 +1859,8 @@ article header {
 }
 @media screen and (min-width: 375px) {
   .page--archivalien-suche .sidebar--content h2.block__title {
-    font-size: calc(16px + 4 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 2 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 4 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 2 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1955,8 +1957,8 @@ button:hover, .button--primary:hover {
 }
 @media screen and (min-width: 375px) {
   #toolbar-administration p, #toolbar-administration p *, #toolbar-administration a, #toolbar-administration a *, #toolbar-administration button, #toolbar-administration button * {
-    font-size: calc(14px + 2 * (100vw - 375px) / 1545);
-    line-height: calc(20px + 4 * (100vw - 375px) / 1545);
+    font-size: calc(14px + 2 * ((100vw - 375px) / 1545));
+    line-height: calc(20px + 4 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -1979,8 +1981,8 @@ button:hover, .button--primary:hover {
 }
 @media screen and (min-width: 375px) {
   .breadcrumb a {
-    font-size: calc(16px + 4 * (100vw - 375px) / 1545);
-    line-height: calc(22px + 2 * (100vw - 375px) / 1545);
+    font-size: calc(16px + 4 * ((100vw - 375px) / 1545));
+    line-height: calc(22px + 2 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -2078,8 +2080,8 @@ button:hover, .button--primary:hover {
 @media screen and (min-width: 375px) {
   #header #primary-nav li a span,
   #header #primary-nav ul a span {
-    font-size: calc(20px + 12 * (100vw - 375px) / 1545);
-    line-height: calc(24px + 9 * (100vw - 375px) / 1545);
+    font-size: calc(20px + 12 * ((100vw - 375px) / 1545));
+    line-height: calc(24px + 9 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
@@ -2196,11 +2198,6 @@ footer .footer__container__inner--wrapper .footer__container__inner--address a:h
   footer .footer__container__inner--wrapper .footer__container__inner--txt {
     margin: 50px 0;
   }
-}
-
-.page--archivalie-single .page-title {
-  font-size: 24px !important;
-  line-height: 1.5 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
