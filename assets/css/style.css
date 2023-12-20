@@ -1790,6 +1790,9 @@ article header {
 .page--archivalien-suche .sidebar--content * {
   color: #FFFFFF !important;
 }
+.page--archivalien-suche .sidebar--content .block-facet--range-slider .block__title {
+  margin-bottom: calc(1.125rem + 50px);
+}
 .page--archivalien-suche .sidebar--content .ui-slider-handle:nth-child(3) span.ui-slider-tip {
   top: -50px !important;
 }

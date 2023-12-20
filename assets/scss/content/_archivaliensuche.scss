@@ -116,6 +116,9 @@
         *{
             color: $color-white!important;
         }
+        .block-facet--range-slider .block__title{
+            margin-bottom: calc(1.125rem + 50px);
+        }
         .ui-slider-handle:nth-child(3) span.ui-slider-tip{
             top: -50px!important;
         }
