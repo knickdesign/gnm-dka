@@ -55,7 +55,7 @@
             border-left: 4px solid $color-red;
             .views-field{
 
-                .field__item, .field__items{
+                .field__item, .field__items, .field--label-inline{
                     margin-bottom: 0;
                     line-height: 1;
                     // title
