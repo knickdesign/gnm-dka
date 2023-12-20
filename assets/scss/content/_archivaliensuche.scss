@@ -58,9 +58,7 @@
                 margin-bottom: 0;
             }
             .views-field .layout__region--content{
-                .field__item,
-                .field__items,
-                .field--label-inline {
+                &>div {
                     margin-bottom: 0;
                     line-height: 1;
 
