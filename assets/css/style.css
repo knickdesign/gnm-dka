@@ -1689,9 +1689,9 @@ article header {
   margin-bottom: 0;
   line-height: 1;
 }
-.page--archivalien-suche .content .views-row .views-field .layout__region--content .field__item:nth-child(1) *,
-.page--archivalien-suche .content .views-row .views-field .layout__region--content .field__items:nth-child(1) *,
-.page--archivalien-suche .content .views-row .views-field .layout__region--content .field--label-inline:nth-child(1) * {
+.page--archivalien-suche .content .views-row .views-field .layout__region--content .field__item:nth-child(1),
+.page--archivalien-suche .content .views-row .views-field .layout__region--content .field__items:nth-child(1),
+.page--archivalien-suche .content .views-row .views-field .layout__region--content .field--label-inline:nth-child(1) {
   font-family: "Corporate S bold", Arial, sans-serif;
   font-weight: bold;
   font-style: normal;
@@ -1702,17 +1702,17 @@ article header {
   margin-bottom: 0;
 }
 @media screen and (min-width: 375px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__item:nth-child(1) *,
-  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__items:nth-child(1) *,
-  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field--label-inline:nth-child(1) * {
+  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__item:nth-child(1),
+  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__items:nth-child(1),
+  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field--label-inline:nth-child(1) {
     font-size: calc(16px + 6 * ((100vw - 375px) / 1545));
     line-height: calc(22px + 4 * ((100vw - 375px) / 1545));
   }
 }
 @media screen and (min-width: 1920px) {
-  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__item:nth-child(1) *,
-  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__items:nth-child(1) *,
-  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field--label-inline:nth-child(1) * {
+  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__item:nth-child(1),
+  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__items:nth-child(1),
+  .page--archivalien-suche .content .views-row .views-field .layout__region--content .field--label-inline:nth-child(1) {
     font-size: 22px;
     line-height: 26px;
   }

@@ -65,7 +65,7 @@
                     line-height: 1;
 
                     // title
-                    &:nth-child(1) * {
+                    &:nth-child(1) {
                         @include font-text-bold;
                         @include text-h4;
                         color: black !important;
