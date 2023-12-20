@@ -116,6 +116,12 @@
         *{
             color: $color-white!important;
         }
+        .ui-slider-handle:nth-child(3) span.ui-slider-tip{
+            top: -50px!important;
+        }
+        .facet-slider.ui-slider-float .ui-slider-tip{
+            color: $color-grey!important;
+        }
         .contextual-region .contextual .contextual-links a{
             color: black!important;
         }

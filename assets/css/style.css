@@ -1789,6 +1789,12 @@ article header {
 .page--archivalien-suche .sidebar--content * {
   color: #FFFFFF !important;
 }
+.page--archivalien-suche .sidebar--content .ui-slider-handle:nth-child(3) span.ui-slider-tip {
+  top: -50px !important;
+}
+.page--archivalien-suche .sidebar--content .facet-slider.ui-slider-float .ui-slider-tip {
+  color: #464646 !important;
+}
 .page--archivalien-suche .sidebar--content .contextual-region .contextual .contextual-links a {
   color: black !important;
 }
