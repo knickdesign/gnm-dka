@@ -1680,6 +1680,9 @@ article header {
   margin-bottom: 30px;
   border-left: 4px solid #e3001b;
 }
+.page--archivalien-suche .content .views-row .layout {
+  margin-bottom: 0;
+}
 .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__item,
 .page--archivalien-suche .content .views-row .views-field .layout__region--content .field__items,
 .page--archivalien-suche .content .views-row .views-field .layout__region--content .field--label-inline {
